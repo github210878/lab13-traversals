@@ -183,7 +183,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 			} else
 			{
 				current = in.pop();
-				System.out.print(current.data);
+				System.out.print(current.data + " ");
 				current = current.rightChild;
 			}
 		}
